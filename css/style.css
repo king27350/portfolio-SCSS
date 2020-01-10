@@ -82,7 +82,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: linear-gradient(to right, #55c57a, #55c57a);
+  background-image: linear-gradient(to right, #54c078, #54c078);
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
@@ -213,7 +213,7 @@ body {
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
-    background-image: linear-gradient(to right, #55c57a, #55c57a);
+    background-image: linear-gradient(to right, #54c078, #54c078);
     display: inline-block;
     -webkit-background-clip: text;
     color: transparent; }
@@ -270,7 +270,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(84, 192, 120, 0.8), rgba(33, 141, 105, 0.8)), url(../img/nat-03.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -278,8 +278,14 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (max-width: 37.5em) {
     .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+      height: 60vh;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } }
+  @media (max-width: 56.25em) {
+    .header {
+      height: 80vh;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } }
 
 .text-box {
   position: absolute;
@@ -474,7 +480,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(84, 192, 120, 0.8), rgba(33, 141, 105, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-5deg);
   margin-top: -10rem; }
